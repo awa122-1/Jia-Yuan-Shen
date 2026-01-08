@@ -26,18 +26,19 @@
 - Windows（使用了 `keyboard` 全局热键）
 
 ---
+## 📦 打包（打包前须装依赖库）
+----
+bash
+----
+cmd到你放置代码的目录下输入：pyinstaller --noconsole --onefile --uac-admin --add-data "genshin.ico;." --version-file file_version_info.txt -i genshin.ico awa.py
+
+声明：genshin.ico可有可无！！！
+
+
+---
 
 ## 📦 依赖库
 
 ```bash
 pip install keyboard
-
-##cmd里
-
-```bash
-pyinstaller --noconsole --onefile --uac-admin --add-data "genshin.ico;." --version-file file_version_info.txt -i genshin.ico awa.py
-
-
-声明：genshin.ico可有可无
-
 
